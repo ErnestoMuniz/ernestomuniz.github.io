@@ -1,0 +1,273 @@
+body {
+    overflow-x: hidden;
+}
+#mainNav a {
+    color: #F05F40 !important;
+}
+#logo {
+    background-image: url('../img/Zaffiro-Tiny.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 2.5em;
+    height: 2.5em;
+    background-position-y: 0.3em;
+}
+.fa-bars {
+    color: #fdc913;
+    font-size: 1.5em;
+    transition-duration: 0.1s;
+}
+.fa-bars:active {
+    font-size: 1.2em;
+    padding-right: 0.1em;
+}
+#biloto {
+    border: 0 solid white;
+}
+#biloto:focus {
+    outline: none;
+}
+header {
+    background: url(../img/background.jpg);
+    position: relative;
+    top: 4.8em;
+    width: 100%;
+    background-position-y: -11em;
+    background-repeat: no-repeat;
+}
+.main {
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+}
+.main h1 {
+    font-family: 'Open Sans';
+    color: #fff6d5;
+    letter-spacing: -0.07em;
+}
+.main h3 {
+    font-family: 'Open Sans';
+    color: #fdc913;
+    font-size: 1.2em;
+}
+.botao {
+    position: relative;
+    top: 0.5em;
+    font-family: 'Open Sans';
+    color: #fdc913;
+    border: 1px solid #fdc913;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    border-radius: 3px;
+    text-decoration: none !important;
+}
+.botao:hover {
+    background-color: #fdc913;
+    color: white;
+}
+#imoveis {
+    background-color: #f2f2f2;
+    position: relative;
+    top: 4.8em;
+    padding: 0;
+    height: 31em;
+}
+.port {
+    position: relative;
+    left: 5%;
+    top: 1.5em;
+    width: 90%;
+}
+.port h5 {
+    text-align: center;
+}
+.loc {
+    list-style-type: none;
+    padding: 0;
+}
+.loc img {
+    width: 40%;
+    height: 8em;
+    float: left;
+    position: relative;
+}
+.loc h6 {
+    padding-top: 0.5em;
+    margin: 0;
+    position: relative;
+    left: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 0.8em;
+}
+.im {
+    margin-bottom: 1em;
+    background-color: #c1c1c1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.lst {
+    list-style-type: disc;
+    margin-bottom: 0.5em;
+    position: relative;
+    left: 2em;
+}
+.lst li {
+    font-size: 0.8em;
+    font-family: 'Open Sans';
+}
+.sobre-im {
+    font-family: 'Open Sans';
+    font-size: 0.8em;
+    border: 1px solid black;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    margin-left: 1.4em;
+    font-weight: 700;
+    cursor: pointer;
+}
+.sobre-im:hover {
+    background-color: black;
+    color: #ffffff !important;
+}
+footer {
+    position: relative;
+    top: 4.8em;
+    font-family: 'Open Sans';
+    background-color: #11254a;
+    color: white;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+    text-align: center;
+}
+footer h6 {
+    padding: 0.5em;
+    margin: 0;
+    text-align: center;
+}
+footer span {
+    font-size: 0.6em;
+    min-width: 320px;
+}
+footer i {
+    color: red;
+}
+
+/* =========== NOTEBOOK HD =============*/
+
+@media screen and (min-width: 1300px){
+    .main {
+        padding-top: 4.25em;
+        padding-bottom: 4.5em;
+    }
+    .im {
+        margin-right: 0.5em;
+        width: 32%;
+        display: inline-block;
+    }
+    .im:first-child {
+        margin-left: 0.75em;
+    }
+    #imoveis {
+        height: 14em;
+    }
+    .port {
+        width: 100%;
+        left: 0;
+    }
+}
+/* =========== NOTEBOOK FULL HD S =========== */
+@media screen and (min-width: 1500px){
+    .main {
+        padding-top: 4.3em;
+        padding-bottom: 4.3em;
+    }
+    #imoveis {
+        height: 18.45em;
+        padding-top: 0em;
+    }
+    .port h5 {
+        font-size: 2em;
+        font-weight: 700;
+        margin-bottom: 0.8em;
+    }
+    .im img {
+        height: 11em;
+    }
+    .im h6 {
+        font-size: 1.2em;
+        padding-top: 0.7em;
+    }
+    .lst {
+        font-size: 1.4em;
+    }
+    .sobre-im {
+        font-size: 1.2em;
+    }
+    .main h1 {
+        font-size: 3em;
+    }
+    .main h3 {
+        font-size: 1.5em;
+    }
+    .main a {
+        font-size: 1.5em;
+        border: 2px solid #fdc913;
+        font-weight: 700;
+    }
+    .port {
+        top: 1em;
+    }
+}
+/* =========== NOTEBOOK FULL HD L =========== */
+@media screen and (min-width: 1900px){
+    .main {
+        padding-top: 4.38em;
+        padding-bottom: 4.38em;
+    }
+    .main h1 {
+        font-size: 4em;
+    }
+    .main h3 {
+        font-size: 2em;
+    }
+    .main a {
+        font-size: 2em;
+    }
+    #imoveis {
+        height: 24.15em;
+        padding-top: 0em;
+    }
+    .port {
+        top: 1em;
+    }
+    footer h6 {
+        font-size: 1.2em;
+        padding-top: 1em;
+    }
+    footer p {
+        font-size: 1.2em;
+    }
+    footer span {
+        font-size: 1em;
+    }
+    footer {
+        height: 8em;
+    }
+    .im img {
+        height: 15em;
+    }
+    .im h6 {
+        font-size: 1.7em;
+        padding-top: 0.7em;
+    }
+    .lst {
+        font-size: 1.7em;
+        margin-bottom: 1em;
+    }
+    .sobre-im {
+        font-size: 1.5em;
+    }
+}
